@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pass-cont">
+        <div class="pass-header">
+            <div class="pass">
+                <span id="pw"></span>
+                <button id="copy">Copy to clipboard</button>
+            </div>
+        </div>
+        <div class="pass-body">
+            <div class="form-control">
+                <label for="length">Password Length</label>
+                <input id="length" type="number" value="12" min="10" max="17"></div>
+            <div class="form-control">
+                <label for="upperCase">Contain uppercase letters</label>
+                <input id="upperCase" type="checkbox"></div>
+        
+        
+            <div class="form-control">
+                <label for="lowerCase">Contain lowercase letters</label>
+                <input id="lowerCase" type="checkbox"></div>
+        
+        
+            <div class="form-control">
+                <label for="number">Contain Numbers</label>
+                <input id="number" type="checkbox"></div>
+       
+        
+            <div class="form-control">
+                <label for="symbol">Contain Symbols</label>
+                <input id="symbol" type="checkbox">
+            </div>
+            <button class="generate" id="generateId">
+                Generate Password
+            </button>
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

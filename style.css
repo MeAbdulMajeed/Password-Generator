@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #0046BB; */
+    background-color: #2C8EE2;  
+    /* background-color: #0F62AA; */
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pass-cont{
+    /* background-color: #128FCB; */
+    background-color: #007ea7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+.pass-header{
+    padding: 1rem;
+    
+}
+.pass{
+    /* background-color: #2ecbe9; */
+    background-color: #1796d3;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    /* overflow: auto; */
+}
+.pass button{
+    background-color: #00539cff;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+.pass:hover button{
+    opacity: 1;
+
+}
+.pass-body{
+    padding: 0 1rem 1rem;
+    
+}
+
+.form-control{
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate{
+    background-color: #ffe45c;
+    border: none;
+    color: #0046BB;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    display: block;
+    cursor: pointer;
+}
